@@ -1,54 +1,60 @@
-/* Réinitialisation de base */
+/* Réinitialisation de base pour supprimer les marges et appliquer une police standard */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+    margin: 0; /* Supprime les marges par défaut du navigateur */
+    font-family: Arial, sans-serif; /* Définit la police par défaut */
 }
 
-/* Style du header */
+/* Style général du header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: Black;
-    padding: 0px 20px;
-    height: 60px;
-    color: white;
+    display: flex; /* Active le modèle flexbox pour aligner les éléments */
+    justify-content: space-between; /* Espace égal entre les éléments à gauche et à droite */
+    align-items: center; /* Centre verticalement les éléments */
+    background-color: Black; /* Définit un fond noir */
+    padding: 0px 20px; /* Ajoute un espace horizontal de 20px à gauche et à droite */
+    height: 60px; /* Définit la hauteur totale du header */
+    color: white; /* Définit la couleur du texte en blanc */
 }
 
-header div.logo img  {
-    max-height: 45px; /* Ajuste la hauteur en conséquence */
-    width: auto; /* Ajuste automatiquement la largeur pour respecter les proportions */
-    object-fit: contain; /* Garde l'image proportionnelle sans la déformer */
-    margin-top: 5px;
+/* Style spécifique pour le logo dans le header */
+header div.logo img {
+    max-height: 45px; /* Limite la hauteur maximale de l'image à 45px */
+    width: auto; /* Maintient les proportions en ajustant automatiquement la largeur */
+    object-fit: contain; /* S'assure que l'image ne dépasse pas ses limites */
+    margin-top: 5px; /* Ajoute un petit espace au-dessus de l'image */
 }
 
-header div.parametre img  {
-    max-height: 50px; /* Ajuste la hauteur en conséquence */
-    width: auto; /* Ajuste automatiquement la largeur pour respecter les proportions */
-    object-fit: contain; /* Garde l'image proportionnelle sans la déformer */
-    margin-top: 5px;
+/* Style spécifique pour l'icône des paramètres dans le header */
+header div.parametre img {
+    max-height: 50px; /* Limite la hauteur maximale de l'image à 50px */
+    width: auto; /* Maintient les proportions en ajustant automatiquement la largeur */
+    object-fit: contain; /* S'assure que l'image ne dépasse pas ses limites */
+    margin-top: 5px; /* Ajoute un petit espace au-dessus de l'image */
 }
 
+/* Style pour la liste de navigation dans le header */
 header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 50px; /* Ajoute un espace de 20px entre chaque <li> */
+    list-style: none; /* Supprime les puces par défaut des listes */
+    margin: 0; /* Supprime la marge par défaut de la liste */
+    padding: 0; /* Supprime le padding par défaut de la liste */
+    display: flex; /* Affiche les éléments de la liste sur une ligne horizontale */
+    gap: 50px; /* Ajoute un espace de 50px entre chaque élément de la liste */
 }
 
+/* Style pour chaque élément de la liste */
 header nav ul li {
-    margin-left: 20px;
+    margin-left: 20px; /* Ajoute un espacement à gauche de chaque élément */
 }
 
+/* Style pour les liens de navigation */
 header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    font-weight: 750; /* Met le texte en gras */
-    gap: 10px; /* Ajoute un espace de 10px entre chaque <li> */
+    color: white; /* Définit la couleur du texte en blanc */
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+    font-size: 1.5em; /* Agrandit la taille du texte des liens */
+    font-weight: 750; /* Met le texte en gras (750 est une valeur personnalisée) */
 }
 
+/* Style pour l'état survolé des liens de navigation */
 header nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Ajoute un soulignement lorsqu'on survole le lien */
 }
+
