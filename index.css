@@ -1,0 +1,54 @@
+/* Réinitialisation de base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style du header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: Black;
+    padding: 0px 20px;
+    height: 60px;
+    color: white;
+}
+
+header div.logo img  {
+    max-height: 45px; /* Ajuste la hauteur en conséquence */
+    width: auto; /* Ajuste automatiquement la largeur pour respecter les proportions */
+    object-fit: contain; /* Garde l'image proportionnelle sans la déformer */
+    margin-top: 5px;
+}
+
+header div.parametre img  {
+    max-height: 50px; /* Ajuste la hauteur en conséquence */
+    width: auto; /* Ajuste automatiquement la largeur pour respecter les proportions */
+    object-fit: contain; /* Garde l'image proportionnelle sans la déformer */
+    margin-top: 5px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px; /* Ajoute un espace de 20px entre chaque <li> */
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 750; /* Met le texte en gras */
+    gap: 10px; /* Ajoute un espace de 10px entre chaque <li> */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
