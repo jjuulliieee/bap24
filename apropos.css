@@ -58,73 +58,46 @@ header nav ul li a:hover {
 
 .text {
     margin-left: 5%;
+    margin-right: 5%;
     font-family: Arial, sans-serif;
     color: white;
 }
 h1 {
     font-weight: 700;
     margin-top: 2.5%;
-    font-size: 56px;
+    margin-bottom: 1%;
+    font-size: 28px;
+}
 
+.nom {
+    font-size: 20px;
+    white-space: nowrap;
 }
-p {
-    margin-right:5%;
-    font-size: 36px;
-    margin-bottom: 2.5%;
-    font-weight: lighter;
+
+.fonction {
+    font-size: 16px;
+    color: rgba(96, 98, 102, 1);
+    font-style:italic;
+    white-space: nowrap;
 }
-h2 {
-    font-size: 44px;
-    font-style: italic;
-    font-weight: lighter;
+
+.Description {
+    font-size: 16px;
     margin-bottom: 1rem;
 }
 
-menu {
+.perso {
     display: flex;
     margin-left: 5%;
-    margin-right: 5%;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 2.5%;
-    
+    margin-bottom: 1%;
 }
 
-/* Style pour les boutons */
-.button {
-    border: 2px solid black;
-    background-color: rgba(230, 13, 76);
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    padding: 1.1rem;
-    border-radius: 100px;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: rgba(230, 13, 76);
-    ;
-    color: lightgray;
-}
-
-.quizz {
+.media{
     display: flex;
-    background-color: rgba(230, 13, 76);
-    font-size: 20px;
-    color: white;
-    border: 2px solid black;
-    justify-content: center;
-    margin: 2.5% 40%;
-    padding:10px;
+    margin-left: 5%;
+    margin-bottom: 2%;
 }
 
-.carte {
-    display: flex;
-    justify-content: center;
-}
-
-.carte img {
-    max-width: 50%;
-    max-height: 50%;
+.media2{
+    padding-right: 20px;
 }
