@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Luciole';
+    src: url('../assets/fonts/Luciole-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Luciole';
+    src: url('../assets/fonts/Luciole-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Luciole';
+    src: url('../assets/fonts/Luciole-Bold-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Luciole';
+    src: url('../assets/fonts/Luciole-Regular-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Luciole', sans-serif;
+}
+
+
+/* HEADER */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5.5rem;
+    padding-inline: 2.5rem;
+    font-size: 1.25rem;
+    position: relative;
+}
+
+.navbar__list {
+    display: flex; 
+    gap: 30px;
+    list-style-type: none;
+}
+
+.link {
+    color: #000;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:active {
+    color: #E60D4C;
+}
+
+.active{
+    color: #E60D4C;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: absolute;
+    left: 2.5rem;
+}
+.icon {
+    position: absolute ;
+    right: 2.5rem;
+    cursor: pointer;
+}
+
+
+/* MAIN */
+
+.container_titre {
+    display: flex;
+}
+.titre {
+    width: 50%;
+    padding-left: 2.5rem;
+}
+
+
+
+
